@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7E049CA52BCDC9EF00127BA7 /* TaskOneBootcampSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E049CA42BCDC9EF00127BA7 /* TaskOneBootcampSwiftUIApp.swift */; };
-		7E049CA72BCDC9EF00127BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E049CA62BCDC9EF00127BA7 /* ContentView.swift */; };
+		7E049CA72BCDC9EF00127BA7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E049CA62BCDC9EF00127BA7 /* HomeView.swift */; };
 		7E049CA92BCDC9F200127BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E049CA82BCDC9F200127BA7 /* Assets.xcassets */; };
 		7E049CAC2BCDC9F200127BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E049CAB2BCDC9F200127BA7 /* Preview Assets.xcassets */; };
+		7E049CB32BCDCC9F00127BA7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E049CB22BCDCC9F00127BA7 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E049CA12BCDC9EF00127BA7 /* TaskOneBootcampSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskOneBootcampSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E049CA42BCDC9EF00127BA7 /* TaskOneBootcampSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneBootcampSwiftUIApp.swift; sourceTree = "<group>"; };
-		7E049CA62BCDC9EF00127BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E049CA62BCDC9EF00127BA7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7E049CA82BCDC9F200127BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E049CAB2BCDC9F200127BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E049CB22BCDCC9F00127BA7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				7E049CA42BCDC9EF00127BA7 /* TaskOneBootcampSwiftUIApp.swift */,
-				7E049CA62BCDC9EF00127BA7 /* ContentView.swift */,
+				7E049CA62BCDC9EF00127BA7 /* HomeView.swift */,
+				7E049CB22BCDCC9F00127BA7 /* HomeViewModel.swift */,
 				7E049CA82BCDC9F200127BA7 /* Assets.xcassets */,
 				7E049CAA2BCDC9F200127BA7 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E049CA72BCDC9EF00127BA7 /* ContentView.swift in Sources */,
+				7E049CA72BCDC9EF00127BA7 /* HomeView.swift in Sources */,
+				7E049CB32BCDCC9F00127BA7 /* HomeViewModel.swift in Sources */,
 				7E049CA52BCDC9EF00127BA7 /* TaskOneBootcampSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

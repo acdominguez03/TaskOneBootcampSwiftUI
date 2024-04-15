@@ -11,7 +11,7 @@ import SwiftUI
 struct TaskOneBootcampSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
